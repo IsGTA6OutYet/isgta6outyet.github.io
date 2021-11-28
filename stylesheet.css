@@ -18,9 +18,9 @@ body {
 }
 
 button {
-  position: relative;
-  left: 1550px;
-  top: -280px;
+  position: flex;
+  left: 200px;
+  top: 250px;
 
   border-radius: 23%;
   background-color: #331e27;
