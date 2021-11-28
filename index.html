@@ -10,10 +10,17 @@
     <title>Is GTA 6 out yet?</title>
   </head>
   <body>
-    <h1>No</h1>
-
+    <h1 id="MainText">No</h1>
+    
+    <button onclick="DarkMode()">Dark Mode</button>
     <script>
         console.log("No");
+      
+        function DarkMode() { // It feels weird not doing this in an external file
+          var element = document.body;
+          element.classList.toggle("DarkMode");
+        }
+      
     </script>
   </body>
 </html>
