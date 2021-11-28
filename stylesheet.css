@@ -6,3 +6,24 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
   }
+
+body {
+  background-color: white;
+  color: black;
+}
+
+.DarkMode {
+  background-color: black;
+  color: white;
+}
+
+button {
+  position: relative;
+  left: 1550px;
+  top: -280px;
+
+  border-radius: 23%;
+  background-color: #331e27;
+  height: 30px;
+  color: white;
+}
